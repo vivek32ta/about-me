@@ -381,6 +381,7 @@ p a {
 }
 
 
+
 @media (max-width: 1000px) {
   
   #photos {
@@ -464,7 +465,7 @@ p a {
   }
   #header table tr td {
     width: 100%;
-    display: flex;
+    display: revert;
     align-content: space-between;
     text-align: center;
     padding: 5px 0px;
@@ -487,5 +488,12 @@ p a {
   }
   #return-to-top:hover i {
     top: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  #header table tr td {
+    display: flex;
+  
   }
 }
