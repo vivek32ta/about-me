@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#FF2C5A" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">  
+    <title>Oddity</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo"><a href="#top">vivek.</a></td>
+                <td id="navigation" class ="navigation">
+                    <a href="#bio">about</a>
+                    <a href="#work">pieces</a>
+                    <a href="#insights">insights</a>
+                    <a href="#contact">contact</a>
+                    <!-- <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+                        <i class="fa fa-bars"></i>
+                      </a> -->
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>
+                    <span id="greeting"></span>
+                    <br/>
+                    <span 
+                        class="typer"
+                        id="greeting-typer"
+                        data-delay="100"
+                        data-loop="1"
+                    ></span>
+                    <span style="font-size:1.2em;vertical-align:middle;" 
+                        class="cursor" data-cursorDisplay="|" data-owner="greeting-typer"></span>
+                </h1>
+                <button class="btn_one dark"
+                    href="#mailgo" data-address="vivekta" data-domain="protonmail.com"
+                    data-subject="Hi, I found you on your site!"
+                    data-body="Unicorns are real. They're just chubby, grey and we call them Rhinos."
+                >Say Hi</button><br>
+                <table>
+                    <tr>
+                        <td class="animated zoomIn" style="animation-delay:2.2s;">
+                            <a class="social" href="https://github.com/vivek32ta" target="_blank">
+                                <i class="fab fa-github"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.4s;">
+                            <a class="social" href="https://www.instagram.com/do.wewake.up/" target="_blank">
+                                <i class="fab fa-instagram"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.6s;">
+                            <a class="social" href="https://www.linkedin.com/in/vivek-ta/" target="_blank" >
+                                <i class="fab fa-linkedin"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.8s;">
+                            <a class="social" href="https://angel.co/u/vivek-t-a" target="_blank" >
+                                <i class="fab fa-angellist"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:3.0s;">
+                            <a class="social" href="https://www.piedpiper.com/" target="_blank">
+                                <i class="fab fa-pied-piper"></i></a></td>
+                    </tr>
+                </table>
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table>
+    <div id="bio">
+        <h1>about</h1>
+        <span class="long-paragraph">
+        <p>
+            Hi, I'm Vivek T A. I am 22 and I am currently creating to-do lists, loving Formula One, hating guavas, craving Parle-G, making bread omlettes, and running many kilometers (I think). 
+            <br/><br/>
+            Oh, and also... I build webapps.
+
+            <br/><br/>
+            You must be reading this and thinking "Why am I here reading this?" If I were you, I would wonder the same thing.
+            Well, you're here because I'm trying to show you that I'm fun and interesting. But in reality I am not. So not. Infact I love doing mundane work.
+            Don't be fooled by this charade, I am absoutely boring. I love reading long documentations, fiddling with big, very big excel sheets,
+            and huge 63-slide PPTs. I can watch paint dry all day. But this is a charade, ..remember? So play along. Pleeease. Anyway, let's get back.  why did I make this site at the first place,
+            obviously LinkedIn is better to show where I work, my education and what not.
+            LinkedIn is cool and all, but then I thought, why not have a resume website.
+            It would be fluid and bonus: I would be able to update it with my recent life updates or 
+            if I just took a picture with Will Smith 
+            (no, there's no picture of me and Will Smith, but that would've been cool.)
+
+            <br/><br/>
+
+            Also, this would never be complete if I don't add typical overused jargon like self motivated, team player, dynamic, synergy, etc. 
+            I'll rather skip to what I truly believe in rather than these platonic words. I undisputedly believe that life is all about the acquisition of skills and
+            putting them to the test in service of something bigger. I have a killer obsession to learn and an innate desire to outgrow myself.
+            Along with this I fluently speak Javascript, C#, Typescript, React, Node, Angular, Git, Entity Core, Solidity, Python, SQL, Mongo, OpenGL, C/C++, and Classic Rock. 
+            I've made a couple of open source contributions as well and you can find personal projects on my 
+            <a href="https://github.com/vivek32ta" target="_blank">github</a>.
+
+        </p>
+        </span>
+        
+    </div>
+    <div id="work">
+        <h1>pieces</h1>
+        <div id="photos">
+            <img onclick="magnify($(this).attr('src'))" src="./assets/3.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="./assets/1.jpg">
+            <img onclick="window.open('https://github.com/vivek32ta/posizer#readme','_blank')" src="./assets/posizer.png">
+            <img onclick="window.open('https://swissvalley.surge.sh/','_blank')" src="./assets/swiss.png">
+            <img onclick="magnify($(this).attr('src'))" src="./assets/5.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="./assets/4.jpg">
+        </div>
+    </div>
+
+    <div id="insights">
+        <h1>insights</h1>
+        <span class="long-paragraph">
+        <p>
+            Have you read "<span onclick="window.open('https://www.principles.com/#get-the-books','_blank')"><a>Principles</a></span>"
+            by Ray Dalio? If you have, definitely reach out, I'd love to talk about it. Any day. Any time.
+            It is my all-time favourite and one of the most practical books I've ever read. Before reading this book, I always used to consider repercussions and always attempted
+            to minimize fallout from the big pile of daily decisions we have to make (and navigating a worthwhile life). But, after reading this, one of the first things I changed was; 
+            I started looking at 3rd order consequences in much more detail. It was no longer about first order repercussions. 
+            This big picture approach was difficult at first, as the 2nd and 3rd order problems and opportunities
+            did appear nebulous, as though in light focus behind a semi-opaque screen. But I started focusing on the layers and the
+            cause-effect relationships between it. To make it harder, as you start expanding your field of view, the sheer number of
+            options expanded logarithmically. All this complexity added to this process made me freeze in Analysis Paralysis. Over time, once I started 
+            build a mental model of operation, I began to get better and better and better. 
+
+            <br/><br/>
+
+            The best analogy to this would be code. The more you can gain an understanding of how different parts of the code are connected, the more you’ll develop an understanding of the entire codebase, as a whole.
+            And, over time, the more (good) code you see, the easier it becomes to read and understand all code, and the faster you can do so.
+            The exposure to high quantity, high quality examples of expertise is one of the two main factors 
+            that dictate how quickly and effectively people learn new skills. (The other is deliberate practice.)
+            
+            <br/><br/>
+            To help you with this, I want to share with you a story about Chicken Sexing (yes, you read it right). What is chicken sexing? And what does it have to do with what we're
+            talking about? Let me explain. Determining the gender of a newborn chick is notoriously tough, but for large commercial chicken farms, the sooner the females are separated from the males, 
+            the sooner they can be on the feeding-for-egg-production path. In the early 1900s, the Japanese developed a particular method for chick sexing and a few experts (reliable, accurate chick-sexers) emerged.
+            Great, we’ll have those experts teach others, right? Just one problem: when questioned, the chick-sexing experts didn’t exactly know how they did it. "I just knew", they said. So how do we even go about the training? 
+            So if you wanted to learn, you were tagged along with an expert.
+
+            <br/><br/>
+            Well, assume you’re one of the new chick-sexer recruits. 
+            You’re are placed in front of a bin full of baby chicks. Problem is: they all look exactly the same 
+            to you. But you’re told to just pick one up and make a guess as to its sex. 
+            As far as you’re concerned, your guesses are completely random.
+            After each wild, random, totally made-up guess, the master chick-sexer gives you feedback. "Yes, no, no, yes."
+            You still have no idea how the expert “knows” but you just keep doing this, over and over.
+            And then, eventually...
+
+            <br/><br/>
+            <strong>Something happens. You begin scoring better than random. </strong>
+
+            <br/><br/>
+            You get better. Over time, much better. But you don’t know why. For all you know, you’re still just guessing, 
+            but now it’s as if some “mysterious” force is guiding your hand towards the correct bin. 
+            
+            <br/><br/>
+
+            After enough exposure with feedback, your brain begins detecting patterns and underlying structures, 
+            without your conscious awareness. With more exposure, your brain fine-tunes its perception and eventually figures out what really matters. 
+            Your brain is making finer distinctions and sorting signal from noise even if you can’t explain how.
+            Perceptual knowledge includes what we think of as expert intuition. The ability to instantly know which chess move to make. Or that this painting is a forgery. 
+            Or that this house fire will explode. Or that there’s something wrong with that code, 
+            even though you can’t always articulate how you know. Now you must realise
+            the longer you’re programming - the more code samples you see, of all different kinds - 
+            the easier it gets to understand other people’s code. And the faster you’re able to do it. 
+            Interesting story, ain't it? I hope you derived some valuable insights as well. Thank you for reading all the way 
+            till here, it means a lot to me. It truly does. You will be noticed and appreciated for your attention (by Google Analytics, just kidding.) No, really,
+            you matter. Thank you. 
+
+            <br/><br/>
+            Feel free to reach out if you have something to add to this, or even if you just wanna talk. Just shoot. 
+            In return I'll make you a playlist lol.
+        </p>
+    </span>
+    </div>
+    
+    <div id="contact">
+        <h1>contact</h1>
+            <table>
+                <tr>
+                    <td>
+                        <div id="inner_div">
+                            <table id="inner_table">
+                                <tr>
+                                    <td><span class="mail dark" href="#mailgo" data-address="vivekta" data-domain="protonmail.com"
+                                        data-subject="Hi, I found you on your site!"
+                                        data-body="Unicorns are real. They're just obese, chubby, and grey. We call them Rhinos."
+                                        ><i class="fas fa-at"></i> &nbsp; vivekta@protonmail.com</td></span>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-map-marker-alt"></i>
+                                    <div id="address">
+                                        Bengaluru, India
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="social" href="https://github.com/vivek32ta" target="_blank">
+                                            <i class="fab fa-github"></i></a>
+                                        <a class="social" href="https://www.instagram.com/do.wewake.up/" target="_blank">
+                                            <i class="fab fa-instagram"></i></a>
+                                        <a class="social" href="https://www.linkedin.com/in/vivek-ta/" target="_blank" >
+                                            <i class="fab fa-linkedin"></i></a>
+                                        <a class="social" href="https://angel.co/u/vivek-t-a" target="_blank" >
+                                            <i class="fab fa-angellist"></i></a>
+                                        <a class="social" href="https://www.youtube.com/watch?v=oHg5SJYRHA0" target="_blank">
+                                            <i class="fab fa-pied-piper"></i></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+    </div>
+    <a id="return-to-top"><i class="fa fa-angle-up"></i></a>
+    <div id="footer">
+        this site is best viewed when looking directly at it <br> <a href="#top">vivek © 2021</a>
+    </div>
+
+
+    <script src="index.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/mailgo@0.12.1/dist/mailgo.min.js"></script>
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <script src="js/consoleimg.min.js"></script>
+    <script>
+        consoleimg.load('assets/spider.gif',{size:150});
+    </script>
+</body>
+</html>
