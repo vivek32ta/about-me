@@ -9,6 +9,8 @@ Go [here](https://vivekta.surge.sh) to see it.
 
 ## bonus
 
-Open the console in dev tools for a surprise or maybe not. Also, did you know that Lego is the world's largest tire manufac-
+Open the console in dev tools for a surprise or maybe not. 
+
+And also, hey, fun fact, did you know that Lego is the world's largest tire manufac-
 
 ![fbi-gif](./assets/tenor.gif)
